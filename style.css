@@ -326,15 +326,13 @@ transition: all .3s ease;
    .snippets .container{
      justify-content: space-around;
    }
-   .snippets-item{
+   .snippets-item {
      margin-bottom: 30px;
    }
-   .snippets-item :last-child{
+   .snippets-item :last-child {
      margin-bottom: 0;
    }
-
-   }
-   .portfolio .container .portfolio-img{
+   .portfolio .container .portfolio-img {
      display: none;
    }
    .portfolio .container .portfolio-text{
@@ -342,60 +340,64 @@ transition: all .3s ease;
      padding-right: 20px;
      padding-left: 20px;
      flex: 0 0 100%;
+     max-width: 100%;
    }
    .our-team .container{
      align-items: center;
    }
    .our-team .container a.more{
-     align-self: center;
+       align-self: center;
    }
-   .our-team-items{
+   .our-team-items {
+     ;
      justify-content: space-around !important;
      flex-wrap: wrap;
    }
    .our-team-item{
-     margin-bottom: 20px;
+     margin-bottom: 20px
    }
-   .our-team-item :last-child{
+   .our-team-item:last-child{
      margin-bottom: 0;
    }
   }
 
   @media (max-width:660px) {
-    header {
+    header{
       height: 650px;
     }
-    .header-top {
-      flex-direction: column;
-    }
+   .header-top{
+     flex-direction: column
+   }
+
     .header-top .logo {
-      align-self: center;
+    align-self: center;
     }
-    .header-top .navbar{
-      flex-wrap: wrap;
+
+    .header-top .navbar {
       justify-content: space-around;
+      flex-wrap: wrap;
     }
     .header-top .navbar li{
       margin: 20px;
     }
-    header .container :nth-child(2){
+    header .container:nth-child(2){
       text-align: center;
     }
-    .header-bottom{
-       width: 100%;
-       margin-top: 40px;
-       text-align: center;
+    .header-bottom {
+      width: 100%;
+      text-align: center;
+      margin-top: 40px;
     }
-    .header-bottom h1{
+    .header-bottom h1 {
       font-size: 32px;
     }
-footer .container{
- flex-direction: column;
- align-items: center ;
- text-align: center;
-}
-footer .container p {
-  margin-top: 20px;
-}
+    footer .container{
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+    }
+     footer .container p {
+     margin-top: 20px;
+    }
 
-}
+  }
